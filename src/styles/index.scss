@@ -1,0 +1,15 @@
+// common styles
+@import 'base';
+@import 'text';
+@import 'ant-layout';
+@import 'common-classes/display';
+@import 'common-classes/flex';
+@import 'common-classes/colors';
+@import 'common-classes/form';
+@import 'common-classes/page';
+
+// mixins
+@import 'mixins/margin-mixin';
+@import 'mixins/font-size-mixin';
+@include margins;
+@include fontSizes;

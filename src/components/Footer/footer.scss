@@ -1,0 +1,21 @@
+$className: footer;
+
+.#{$className} {
+  background: $white;
+  min-height: 50px;
+  padding: 10px 20px;
+}
+
+.#{$className}__copyright {
+  font-size: 12px;
+}
+
+.#{$className}__support-links {
+  font-size: 13px;
+}
+
+.#{$className}__support-link {
+  color: $gray;
+  margin-left: 30px;
+  white-space: nowrap;
+}

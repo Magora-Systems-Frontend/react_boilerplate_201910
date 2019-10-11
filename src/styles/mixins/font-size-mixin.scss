@@ -1,0 +1,8 @@
+@mixin fontSizes {
+  @for $i from 10 through 40 {
+    $fs: $i * 1px;
+    .fs-#{$i} {
+      font-size: $fs;
+    }
+  }
+}

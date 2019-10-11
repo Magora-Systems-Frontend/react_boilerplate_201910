@@ -1,0 +1,45 @@
+$className: header;
+
+.#{$className} {
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  height: $header-height;
+  padding: 0 20px;
+  background: $white;
+  z-index: 10;
+
+  &__content {
+    height: $header-height;
+  }
+}
+
+.#{$className}__home {
+  line-height: 32px;
+  height: 32px;
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: $gray;
+}
+
+.#{$className}__logo-wrapper {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 32px;
+  width: 32px;
+  margin-right: 0.75rem;
+}
+
+.#{$className}__logo {
+  height: 100%;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+.#{$className}__right-panel > * {
+  margin-left: 30px !important;
+  cursor: pointer;
+  transition: color 0.25s;
+  &:hover {
+    color: $link-blue;
+  }
+}

@@ -1,0 +1,11 @@
+$className: login-page;
+
+.#{$className} {
+  min-height: 100%;
+  padding: 2rem;
+}
+
+.#{$className}__form-wrapper {
+  max-width: 350px;
+  width: 100%;
+}

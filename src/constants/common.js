@@ -1,0 +1,4 @@
+export const LOCAL_STORAGE_KEYS = {
+  USER: 'USER',
+  ACCESS_TOKEN: 'ACCESS_TOKEN'
+};
