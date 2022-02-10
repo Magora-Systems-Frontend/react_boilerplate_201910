@@ -73,7 +73,7 @@
     "html-webpack-plugin": "^3.2.0",
     "ismobilejs": "^0.5.2",
     "mini-css-extract-plugin": "^0.6.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-flexbox": "^1.0.3",
     "postcss-flexbugs-fixes": "^4.1.0",
